@@ -1,0 +1,12 @@
+{
+  "catalog": [
+    {
+      "title": "https://images.unsplash.com/photo-1547565527-389ccd19e85b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMTk4MjB8MHwxfHNlYXJjaHw0fHwlN0JjYXRzJTdEfGVufDB8fHx8MTY1NTA0MTM5Nw&ixlib=rb-1.2.1&q=80&w=1080",
+      "id": 1
+    },
+    {
+      "title": "https://images.unsplash.com/photo-1547565393-1b180d53d82a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMTk4MjB8MHwxfHNlYXJjaHwzfHwlN0JjYXRzJTdEfGVufDB8fHx8MTY1NTEzNjQ0OQ&ixlib=rb-1.2.1&q=80&w=1080",
+      "id": 2
+    }
+  ]
+}

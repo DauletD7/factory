@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search{
+  background: url('./bg.png');
+  background-size: cover;
+  i{
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+  }
+}
+.singleBlock{
+  background-size: 100%;
+  }
+@media only screen and (max-width: 768px) { 
+  .singleBlock{
+      background-image: none !important;
+  }
+ 
+}
