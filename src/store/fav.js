@@ -10,7 +10,7 @@ export default {
     },
     mutations: {
         setState(state, newProduct ) {            
-            state.cart.push(newProduct);
+            state.cart=(newProduct);
         }        
     },
     state: {

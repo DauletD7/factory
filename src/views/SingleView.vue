@@ -17,11 +17,13 @@
                 <div class="flex items-center">
                     <div @click="sendData()" class="bg-white p-3 mr-5 rounded-lg">
                         <i class="fa-regular fa-heart"></i>
-                    </div>                    
-                    <div class="flex items-center bg-mainBtn py-3 px-5">
-                        <img class="mr-2" src="../assets/icon.png" alt="">
-                        <p>Downloand</p>
                     </div>
+                    <a :href="$route.params.item.urls.regular" download="">
+                        <div class="flex items-center bg-mainBtn py-3 px-5">
+                            <img class="mr-2" src="../assets/icon.png" alt="">
+                            <p>Downloand</p>
+                        </div>
+                    </a>               
                 </div>
             </div>
             <img class="w-full rounded-2xl single-b"
